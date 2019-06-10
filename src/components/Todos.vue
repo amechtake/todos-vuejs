@@ -5,7 +5,7 @@
       <input
         type="text"
         class="new-todo"
-        placeholder="Ajouter une tâche"
+        placeholder="Add new task"
         v-model="newTodo"
         @keyup.enter="saveTodo"
       >
